@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Tudengid Tartus</title>
+<style>
+    .frame {
+      width: 500px;
+      height: 300px;
+      border: 2px solid rgb(250, 43, 122);
+      background: rgb(0, 0, 0);
+      margin: auto;
+      padding: 10px 10px;
+    }
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  </style>
+</head>
+<body>
+
+    <font size="7"
+          face="baskerville old face"
+          color="pink">
+            Vaatamisväärsused Singapuris
+        </font>
+    
+        <font size="4"
+              face="times new roman"
+              color="black"
+              align="justify">
+<p>Singapur on linnriik Kagu-Aasias Malaka poolsaare lõunaosa lähedal asuval Singapuri saarel ja lähiümbruse väikesaartel, mis pakub vaatamisväärsuste ja külastuskeskustena enamat kui lihtsalt tipptasemel kaubanduskeskusi, luksushotelle ja peeneid söögikohti. Singapuris on elav ajalugu ja mitmekesised etnilised kvartalid, mida avastada. Lisaks on seal ka mitmeid peresõbralike vaatamisväärsusi, mis muudavad selle veidi futuristliku linna külastamise väärt.</p>
+        </font>
+</body>
+<h4>Vaata rohkem siit: <a href="https://thehoneycombers.com/singapore/sightseeing-in-singapore-attractions/">link</a>.</h4>
+
+<div class="frame">
+<img src = "singapur2.jpg" width = "400" height = "200" alt="Nature">
+</div>
+
+<h2>Populaarsemad vaatamiväärsused:</h2>
+
+<ul>
+    <li>Veeda aega looduses:</li>
+    <ul>
+    <li>Sentosa Island</li>
+    <li>Botanic Gardens</li>
+    <li>Singapore Zoo</li>
+    <ul>
+    <li>Gardens by the Bay</li>
+    <li>Orchard Road</li>
+    <li>Singapore Flyer</li>
+    <li>Chinatown</li>
+    <li>Marina Bay Sands</li>
+</ul>
+</ul>
+
+
+</html>
