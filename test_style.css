@@ -62,7 +62,7 @@ nav a {
 }
 .content-area {
   width: 100%;
-  height: 3500px;
+  height: fit-content;
   position: relative;
   top: 400px;
   background-color: #bfdbf7;
@@ -90,13 +90,23 @@ nav a {
 }
 .piltTekst {
   display: grid;
-  gap: 1rem;
+  gap: 3rem;
   grid-template-columns: min-content 1fr;
   align-items: center;
 }
+.pildike {
+  width: 50%;
+  float: left;
+}
+
+.tekst {
+  width: 70%;
+  float: right;
+}
+
 img {
   margin: 0 auto;
-  padding: 2rem;
+  padding: 0rem;
   gap: 1rem;
   width: 550px;
   height: auto;
@@ -106,5 +116,9 @@ img {
   height: 350px;
   border-radius: 50%;
   overflow: hidden;
-  background-color: #022b3a;
+  background-color: hsla(196, 93%, 12%, 0);
+  transition: 0.5s;
+}
+.circular_image:hover {
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
 }
