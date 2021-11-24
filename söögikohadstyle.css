@@ -26,7 +26,7 @@
 }
 
 .speciality .box-container .box .image{
-  height: 100%;
+  height: fit-content;
   width: 100%;
   object-fit: cover;
   position: absolute;
