@@ -13,6 +13,8 @@
     background-color: #022b3a;
   }
 
+  
+
   .speciality .box-container .box{
     flex:1 1 30rem;
     position: relative;
@@ -21,6 +23,7 @@
     border:.1rem solid rgba(0,0,0,.3);
     cursor: pointer;
     border-radius: .5rem;
+    background:#fff;
   }
   
   .speciality .box-container .box .image{
@@ -33,7 +36,6 @@
   
   .speciality .box-container .box .content{
     text-align: center;
-    background:#fff;
     padding:2rem;
   }
   
@@ -52,10 +54,6 @@
     font-size: 1.6rem;
     color:#666;
     padding:1rem 0;
-  }
-  
-  .speciality .box-container .box:hover .image{
-    top:0;
   }
   
   .popular .box-container{
@@ -89,6 +87,11 @@
     padding-top: 1rem;
   }
   
+  *{
+    margin: 0;
+    padding: 0;
+}
+
   .wrapper{
     width: 1170px;
     margin: 0 auto;
@@ -175,3 +178,4 @@ nav a{
     font-size: 20px;
     color: #022b3a;
 }
+
