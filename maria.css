@@ -34,16 +34,20 @@
   .speciality .box-container .box .content{
     text-align: center;
     background:#fff;
-    padding:2rem;
+    padding: 2px;
+    padding-bottom: 2px;
   }
   
   .speciality .box-container .box .content img{
-    margin:1.5rem 0;
+    margin: 1.5rem 0;
+    height: 7rem;
+    width: 7rem;
   }
   
   .speciality .box-container .box .content h3{
     font-size: 2.5rem;
     color:#333;
+
   }
   
   .speciality .box-container .box .content p{
@@ -54,10 +58,6 @@
   
   .speciality .box-container .box:hover .image{
     top:0;
-  }
-  
-  .speciality .box-container .box:hover .content{
-    transform: translateY(100%);
   }
   
   .popular .box-container{
@@ -78,21 +78,12 @@
   }
   
   .popular .box-container .box img{
-    height:25rem;
+    height: 20rem;
     object-fit: cover;
     width:100%;
     border-radius: .5rem;
   }
   
-  .popular .box-container .box .price{
-    position: absolute;
-    top:3rem; left:3rem;
-    background:var(--red);
-    color:#fff;
-    font-size: 2rem;
-    padding:.5rem 1rem;
-    border-radius: .5rem;
-  }
   
   .popular .box-container .box h3{
     color:#333;
@@ -100,11 +91,6 @@
     padding-top: 1rem;
   }
   
-  .popular .box-container .box .stars i{
-    color:gold;
-    font-size: 1.7rem;
-    padding:1rem .1rem;
-  }
 
   .wrapper{
     width: 1170px;
@@ -166,7 +152,7 @@ nav a{
 }
 .content-area{
     width: 100%;
-    height: 3500px;
+    height: fit-content;
     position: relative;
     top: 400px;
     background-color: #bfdbf7;
