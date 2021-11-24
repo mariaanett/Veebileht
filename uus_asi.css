@@ -65,9 +65,9 @@ nav a{
     height: 3500px;
     position: relative;
     top: 400px;
-    background-color: #bfdbf7;
+    background-color: #022b3a;
 }
-.content-area h2{
+.wrapper h2{
     margin: 0;
     padding-top: 1%;
     padding-bottom: 5%;
@@ -76,35 +76,36 @@ nav a{
     font-size: 40px;
     color: #ffff;
 }
-.content-area p{
-    text-align: justify;
-    font-family: Arial;
-    font-size: 20px;
-    color: rgb(0, 0, 0);
+.box{
+    display: flex;
+    position: absolute;
+    top: 6%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 900px;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #ffff;
+    border-radius: 2px;
 }
-.content-area a{
-    text-align: justify;
-    font-family: Arial;
-    font-size: 20px;
-    color: #022b3a;
-}
-.piltTekst{
-    display: grid;
-    gap: 5rem;
-    grid-template-columns: min-content 1fr;
-    align-items: center;
+.img-box{
+    width: 150px;
+    flex: 0 0 150px;
 }
 img{
-    margin: 0 auto;
-    padding: 2rem;
-    gap: 1rem;
-    width: 550px;
-    height: auto;
+    max-width: 200%;
+    height: 200px;
 }
-.circular_image {
-  width: 350px;
-  height: 350px;
-  border-radius: 50%;
-  overflow: hidden;
-  background-color: #022b3a;
+.content{
+    padding-left: 175px;
+}
+.content h2{
+    margin: 0;
+    padding-left: 0;
+    color: #022b3a;
+}
+.content p{
+    margin: 0;
+    padding: 10px, 0, 0;
+    text-align: justify;
 }
