@@ -17,7 +17,6 @@
   flex: 1 1 30rem;
   position: relative;
   overflow: hidden;
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
   border: 0.1rem solid rgba(0, 0, 0, 0.3);
   cursor: pointer;
   border-radius: 0.5rem;
@@ -171,6 +170,7 @@ nav a {
   color: rgb(0, 0, 0);
 }
 .content-area a {
+  text-decoration: none;
   text-align: justify;
   font-family: Arial;
   font-size: 20px;
