@@ -65,47 +65,56 @@ nav a{
     height: 3500px;
     position: relative;
     top: 400px;
+    justify-content: center;
+    align-items: center;
     background-color: #022b3a;
 }
 .wrapper h2{
     margin: 0;
-    padding-top: 1%;
+    padding-top: 10%;
     padding-bottom: 5%;
     text-align: center;
     font-family: Arial;
     font-size: 40px;
     color: #ffff;
 }
-.box{
+.container{
     display: flex;
     position: absolute;
-    top: 6%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 900px;
-    padding: 20px;
-    box-sizing: border-box;
-    background-color: #ffff;
-    border-radius: 2px;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
 }
-.img-box{
-    width: 150px;
+.card{
+    position: relative;
+    max-width: 800px;
+    background: #ffff;
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+}
+.image-box{
+    max-width: 150px;
     flex: 0 0 150px;
 }
-img{
-    max-width: 200%;
-    height: 200px;
+.image-box img{
+    max-width: 350px;
 }
 .content{
-    padding-left: 175px;
+    padding-left: 220px;
+    text-align: justify;
 }
 .content h2{
     margin: 0;
     padding-left: 0;
+    font-size: 30px;
     color: #022b3a;
 }
 .content p{
     margin: 0;
     padding: 10px, 0, 0;
-    text-align: justify;
 }
