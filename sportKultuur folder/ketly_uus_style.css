@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    width: 1170px;
+    margin: 0 auto;
+}
+header{
+    height: 100px;
+    width: 100%;
+    background-color: #022b3a;
+    z-index: 12;
+    position: fixed;
+}
+.logo{
+    width: 30%;
+    float: left;
+    line-height: 100px;
+}
+.logo a{
+    text-decoration: None;
+    font-family: Arial;
+    font-size: 30px;
+    color: #ffff;
+    letter-spacing: 5px;
+}
+nav{
+    float: right;
+    line-height: 100px;
+}
+nav a{
+    margin: 0 10px;
+    text-decoration: None;
+    font-family: Arial;
+    font-size: 20px;
+    color: #ffff;
+    letter-spacing: 0;
+}
+.banner-area{
+    width: 100%;
+    height: 350px;
+    position: fixed;
+    top: 100px;
+    background-color: #bfdbf7;
+    background-size: cover;
+    background-position: center center;
+}
+.banner-area h2{
+    padding-top: 5%;
+    text-align: center;
+    font-family: Arial;
+    font-size: 50px;
+    color: #1f7a8c;
+}
+.banner-area h4{
+    padding-top: 2%;
+    text-align: center;
+    font-family: Arial;
+    font-size: 25px;
+    color: #1f7a8c;
+}
+.content-area{
+    width: 100%;
+    height: 3500px;
+    position: relative;
+    top: 400px;
+    justify-content: center;
+    align-items: center;
+    background-color: #022b3a;
+}
+.wrapper h2{
+    margin: 0;
+    padding-top: 10%;
+    padding-bottom: 5%;
+    text-align: center;
+    font-family: Arial;
+    font-size: 40px;
+    color: #ffff;
+}
+.container{
+    display: flex;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 900px;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.card{
+    position: relative;
+    max-width: 800px;
+    background: #ffff;
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+}
+.image-box{
+    max-width: 150px;
+    flex: 0 0 150px;
+}
+.image-box img{
+    max-width: 350px;
+}
+.content{
+    padding-left: 220px;
+    text-align: justify;
+}
+.content h2{
+    margin: 0;
+    padding-left: 0;
+    font-size: 30px;
+    color: #022b3a;
+}
+.content p{
+    margin: 0;
+    padding: 10px, 0, 0;
+}
