@@ -1,3 +1,4 @@
+<<<<<<< HEAD:sportKultuur folder/ketly_uus_style.css
 *{
     margin: 0;
     padding: 0;
@@ -118,3 +119,117 @@ nav a{
     margin: 0;
     padding: 10px, 0, 0;
 }
+=======
+* {
+  margin: 0;
+  padding: 0;
+}
+.wrapper {
+  width: 1170px;
+  margin: 0 auto;
+}
+header {
+  height: 100px;
+  width: 100%;
+  background-color: #022b3a;
+  z-index: 12;
+  position: fixed;
+}
+.logo {
+  width: 30%;
+  float: left;
+  line-height: 100px;
+}
+.logo a {
+  text-decoration: None;
+  font-family: Arial;
+  font-size: 30px;
+  color: #ffff;
+  letter-spacing: 5px;
+}
+nav {
+  float: right;
+  line-height: 100px;
+}
+nav a {
+  margin: 0 10px;
+  text-decoration: None;
+  font-family: Arial;
+  font-size: 20px;
+  color: #ffff;
+  letter-spacing: 0;
+}
+.banner-area {
+  width: 100%;
+  height: 350px;
+  position: fixed;
+  top: 100px;
+  background-color: #bfdbf7;
+  background-size: cover;
+  background-position: center center;
+}
+.banner-area h2 {
+  padding-top: 5%;
+  text-align: center;
+  font-family: Arial;
+  font-size: 50px;
+  color: #1f7a8c;
+}
+.banner-area h4 {
+  padding-top: 2%;
+  text-align: center;
+  font-family: Arial;
+  font-size: 25px;
+  color: #1f7a8c;
+}
+.content-area {
+  width: 100%;
+  height: 3500px;
+  position: relative;
+  top: 400px;
+  background-color: #022b3a;
+}
+.wrapper h2 {
+  margin: 0;
+  padding-top: 1%;
+  padding-bottom: 5%;
+  text-align: center;
+  font-family: Arial;
+  font-size: 40px;
+  color: #ffff;
+}
+.box {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  top: 6%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 900px;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #ffff;
+  border-radius: 2px;
+}
+.img-box {
+  width: 150px;
+  flex: 0 0 150px;
+}
+img {
+  max-width: 200%;
+  height: 200px;
+}
+.content {
+  padding-left: 175px;
+}
+.content h2 {
+  margin: 0;
+  padding-left: 0;
+  color: #022b3a;
+}
+.content p {
+  margin: 0;
+  padding: 10px, 0, 0;
+  text-align: justify;
+}
+>>>>>>> cea87c6bbb87b0813aa13ccbcd863c32478642bd:ketly_uus_style.css
