@@ -1,195 +1,202 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
 }
-html, body{
-    margin: 0;
-    padding: 0;
-    min-height: 100%;
- }
- .box-area{
-    width: 100%;
-    min-height: 100%;
-    position: relative;
- }
-.wrapper{
-    width: 1170px;
-    margin: 0 auto;
+html,
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
 }
-header{
-    height: 100px;
-    width: 100%;
-    background-color: #022b3a;
-    z-index: 12;
-    position: fixed;
+.box-area {
+  width: 100%;
+  min-height: 100%;
+  position: relative;
 }
-.logo{
-    width: 30%;
-    float: left;
-    line-height: 100px;
+.wrapper {
+  width: 1170px;
+  margin: 0 auto;
 }
-.logo a{
-    text-decoration: none;
-    font-family: "Roboto Mono";
-    font-size: 30px;
-    color: #ffff;
-    letter-spacing: 5px;
+header {
+  height: 100px;
+  width: 100%;
+  background-color: #022b3a;
+  z-index: 12;
+  position: fixed;
 }
-nav{
-    float: right;
-    line-height: 100px;
+.logo {
+  width: 30%;
+  float: left;
+  line-height: 100px;
 }
-nav a{
-    margin: 0 10px;
-    text-decoration: none;
-    font-family: "Playfair Display";
-    font-size: 20px;
-    color: #ffff;
-    letter-spacing: 0;
+.logo a {
+  text-decoration: none;
+  font-family: "Roboto Mono";
+  font-size: 30px;
+  color: #ffff;
+  letter-spacing: 5px;
 }
-.banner-area{
-    width: 100%;
-    height: 350px;
-    position: fixed;
-    top: 100px;
-    background: linear-gradient(to right, #1f7a8c, #bfdbf7);
-    background-size: cover;
-    background-position: center center;
+nav {
+  float: right;
+  line-height: 100px;
 }
-.banner-area h2{
-    padding-top: 5%;
-    text-align: center;
-    font-family: "Playfair Display";
-    font-size: 50px;
-    color: #ffffff;
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  font-family: "Playfair Display";
+  font-size: 20px;
+  color: #ffff;
+  letter-spacing: 0;
 }
-.banner-area h4{
-    padding-top: 2%;
-    text-align: center;
-    font-family: "Playfair Display";
-    font-size: 25px;
-    color: #ffffff;
+.banner-area {
+  width: 100%;
+  height: 350px;
+  position: fixed;
+  top: 100px;
+  background: linear-gradient(to right, #1f7a8c, #bfdbf7);
+  background-size: cover;
+  background-position: center center;
 }
-.content-area{
-    width: 100%;
-    height: 3200px;
-    position: relative;
-    top: 400px;
-    padding-bottom: 400px;
-    justify-content: center;
-    align-items: center;
-    background-color: #022b3a;
+.banner-area h2 {
+  padding-top: 5%;
+  text-align: center;
+  font-family: "Playfair Display";
+  font-size: 50px;
+  color: #ffffff;
 }
-.wrapper h2{
-    margin: 0;
-    padding-top: 10%;
-    text-align: center;
-    font-family: "Playfair Display";
-    font-size: 40px;
-    color: #ffff;
+.banner-area h4 {
+  padding-top: 2%;
+  text-align: center;
+  font-family: "Playfair Display";
+  font-size: 25px;
+  color: #ffffff;
 }
-.container{
-    display: flex;
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 900px;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
+.content-area {
+  width: 100%;
+  height: 3200px;
+  position: relative;
+  top: 400px;
+  padding-bottom: 400px;
+  justify-content: center;
+  align-items: center;
+  background-color: #022b3a;
 }
-.card{
-    position: relative;
-    max-width: 800px;
-    background: #ffff;
-    margin: 20px;
-    padding: 20px;
-    display: flex;
+.wrapper h2 {
+  margin: 0;
+  padding-top: 10%;
+  text-align: center;
+  font-family: "Playfair Display";
+  font-size: 40px;
+  color: #ffff;
 }
-.image-box{
-    max-width: 150px;
-    flex: 0 0 150px;
-    padding-top: 1%;
+.container {
+  display: flex;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 900px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
-.image-box img{
-    width: 350px;
-    height: 250px;
+.card {
+  position: relative;
+  max-width: 800px;
+  background: #ffff;
+  margin: 20px;
+  padding: 20px;
+  display: flex;
+  transition: 0.5s;
 }
-.content{
-    padding-left: 220px;
-    text-align: justify;
+.card:hover {
+  box-shadow: 0 15px 30px #1f7a8c;
 }
-.content h2{
-    margin: 0;
-    padding-bottom: 2%;
-    padding-left: 0;
-    font-size: 30px;
-    color: #022b3a;
+.image-box {
+  max-width: 150px;
+  flex: 0 0 150px;
+  padding-top: 1%;
 }
-.content p{
-    margin: 0;
-    padding: 10px, 0, 0;
+.image-box img {
+  width: 350px;
+  height: 250px;
 }
-footer{
-    width: 85%;
-    height: fit-content;
-    position: absolute;
-    display: flex;
-    background: linear-gradient(to right, #1f7a8c, #bfdbf7);
-    padding: 100px;
-    line-height: 30px;
+.content {
+  padding-left: 220px;
+  text-align: justify;
 }
-.row{
-    width: 100%;
-    margin: auto;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    justify-content: space-evenly;
+.content h2 {
+  margin: 0;
+  padding-bottom: 2%;
+  padding-left: 0;
+  font-size: 30px;
+  color: #022b3a;
 }
-.col{
-    flex-basis: 35%;
-    padding: 25px;
-    flex: 1;
+.content p {
+  margin: 0;
+  padding: 10px, 0, 0;
+  color: #000000;
 }
-.col h2 span{
-    font-family: "Roboto Mono";
-    font-size: 30px;
-    color: #ffff;
-    letter-spacing: 5px;
+footer {
+  width: 85%;
+  height: fit-content;
+  position: absolute;
+  display: flex;
+  background: linear-gradient(to right, #1f7a8c, #bfdbf7);
+  padding: 100px;
+  line-height: 30px;
 }
-.col h2{
-    text-align: left;
-    padding-bottom: 5%;
-    font-family: "Playfair Display";
-    font-size: 30px;
-    color: #ffffff;
+.row {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-evenly;
 }
-.col p{
-    text-align: justify;
-    font-family: "Playfair Display";
-    font-size: 20px;
-    color: #ffff;
+.col {
+  flex-basis: 35%;
+  padding: 25px;
+  flex: 1;
 }
-.col .contact span{
-    display: block;
-    font-size: 15px;
-    color: #ffff;
+.col h2 span {
+  font-family: "Roboto Mono";
+  font-size: 30px;
+  color: #ffff;
+  letter-spacing: 5px;
 }
-.col .contact-input{
-    background-color: #ffff;
-    color: #022b3a;
-    margin-bottom: 5px;
-    line-height: 0.5rem;
-    padding: 0.8rem 5rem;
-    border: none;
+.col h2 {
+  text-align: left;
+  padding-bottom: 5%;
+  font-family: "Playfair Display";
+  font-size: 30px;
+  color: #ffffff;
 }
-.col .contact-input:focus{
-    background-color: #bfdbf7;
+.col p {
+  text-align: justify;
+  font-family: "Playfair Display";
+  font-size: 20px;
+  color: #ffff;
 }
-.btn-big{
-    padding: 0.5rem 1.5rem;
-    line-height: 1.5rem;
-    color: #022b3a;
+.col .contact span {
+  display: block;
+  font-size: 15px;
+  color: #ffff;
+}
+.col .contact-input {
+  background-color: #ffff;
+  color: #022b3a;
+  margin-bottom: 5px;
+  line-height: 0.5rem;
+  padding: 0.8rem 5rem;
+  border: none;
+}
+.col .contact-input:focus {
+  background-color: #bfdbf7;
+}
+.btn-big {
+  padding: 0.5rem 1.5rem;
+  line-height: 1.5rem;
+  color: #022b3a;
 }
