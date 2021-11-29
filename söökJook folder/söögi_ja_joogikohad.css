@@ -19,6 +19,21 @@
   box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
 }
 
+.home .content p{
+  font-size: 1.7rem;
+  color:#666;
+  padding:1rem 0;
+}
+
+.home .content h3{
+  font-size: 5rem;
+  color:#333;
+}
+
+.home .image{
+  flex:1 1 40rem;
+}
+
 .speciality .box-container .box .image {
   height: 100%;
   width: 100%;
@@ -63,7 +78,7 @@
 
 .speciality .box-container .box .content p{
   font-size: 1rem;
-  color: #666;
+  color: #000;
   padding: 1rem 0;
 }
   
