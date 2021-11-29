@@ -109,7 +109,7 @@
                     </div>
                     <div class="content">
                         <h2>Kultuuriaken</h2>
-                        <p>Tartu Kultuuriaken on suurepärane lehekülg, kust leida endale kiirelt mõni paeluv kultuurielamus. Mis kõige olulisem, sina määrad hinna (tudengisõbralik)! Et leida endale sobiv sündmus või huvitegevus, toimi nii: klikka lingile kultuuriaken.tartu.ee -> vali menüüribalt sündmuste või huvitegevuste rubriik -> lehe vasakus servas avaneb sul võimalus filtreerida välja sobivad valikud -> kindlasti kasuta “Vali maksumus” avanevat lahtrit -> vali otsingutulemuste seast just see kõige õigem ettevõtmine.</p>
+                        <p>Tartu Kultuuriaken on suurepärane lehekülg, kust leida endale kiirelt mõni paeluv kultuurielamus. Mis kõige olulisem, Sina määrad hinna (tudengisõbralik)! Et leida endale sobiv sündmus või huvitegevus, <b>toimi nii:</b> klikka lingile kultuuriaken.tartu.ee → vali menüüribalt sündmuste või huvitegevuste rubriik → lehe vasakus servas avaneb sul võimalus filtreerida välja sobivad valikud → kindlasti kasuta “Vali maksumus” avanevat lahtrit → vali otsingutulemuste seast just see kõige õigem ettevõtmine.</p>
                     </div>
                 </div>
                 </a>
@@ -136,8 +136,16 @@
                 <form action="ketly_uus_sportKultuur.html" method="post">
                     <input type="email" name="email" class="text-input contact-input" placeholder="Sisesta e-maili aadress...">
                     <textarea name="message" class="text-input contact-input" placeholder="Sinu sõnum meile..."></textarea>
-                    <button type="submit" class="btn btn-big">Saada!</button>
+                    <button type="submit" class="btn btn-big" id="myBtn">Saada!</button>
+                    <div id="myModal" class="modal">
+                        <div class="modal-content">
+                            <span class="close">&times;</span>
+                            <p>Nüüd oled kursis ka kõige värskemate uudiste ja pakkumistega.</p>
+                            <p>Kui andsid tagasisidet või oli sul mõni küsimus, siis suur aitäh ja saadame peagi vastuse Sulle meilile!</p>
+                        </div>
+                    </div>
                 </form>
+                <script src="nupuke.js"></script>
             </div>
         </div>
     </footer>
