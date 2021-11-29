@@ -1,45 +1,46 @@
-*{
+* {
   margin: 0;
   padding: 0;
 }
-html, body{
+html,
+body {
   margin: 0;
   padding: 0;
   min-height: 100%;
 }
-.box-area{
+.box-area {
   width: 100%;
   min-height: 100%;
   position: relative;
 }
-.wrapper{
+.wrapper {
   width: 1170px;
   margin: 0 auto;
 }
-header{
+header {
   height: 100px;
   width: 100%;
   background-color: #022b3a;
   z-index: 12;
   position: fixed;
 }
-.logo{
+.logo {
   width: 30%;
   float: left;
   line-height: 100px;
 }
-.logo a{
+.logo a {
   text-decoration: None;
   font-family: "Roboto Mono";
   font-size: 30px;
   color: #ffff;
   letter-spacing: 5px;
 }
-nav{
+nav {
   float: right;
   line-height: 100px;
 }
-nav a{
+nav a {
   margin: 0 10px;
   text-decoration: None;
   font-family: "Playfair Display";
@@ -47,11 +48,11 @@ nav a{
   color: #ffff;
   letter-spacing: 0;
 }
-.banner-area{
+.banner-area {
   position: relative;
   z-index: 1;
 }
-.banner-area:before{
+.banner-area:before {
   content: "";
   z-index: -1;
   width: 100%;
@@ -64,28 +65,28 @@ nav a{
   background-position: center center;
   opacity: 0.5;
 }
-.banner-area h2{
+.banner-area h2 {
   padding-top: 20%;
   text-align: center;
   font-family: "Playfair Display";
   font-size: 60px;
   color: #000000;
 }
-.banner-area h4{
+.banner-area h4 {
   padding-top: 2%;
   text-align: center;
   font-family: "Playfair Display";
   font-size: 40px;
   color: #000000;
 }
-.content-area{
+.content-area {
   width: 100%;
   height: 2100px;
   position: relative;
   top: 560px;
   background-color: #022b3a;
 }
-.content-rows{
+.content-rows {
   display: flex;
   padding-top: 10%;
   margin: auto;
@@ -93,33 +94,33 @@ nav a{
   align-items: flex-start;
   justify-content: flex-end;
 }
-.content-col{
+.content-col {
   flex: 50%;
   flex: 1;
-	padding: 50px;
+  padding: 50px;
   z-index: 1;
-	height: 250px;
+  height: 250px;
   background-color: #bfdbf7;
   margin: 0;
 }
-.content-col h2{
+.content-col h2 {
   font-family: "Playfair Display";
   text-align: left;
   font-size: 40px;
   padding-bottom: 10px;
 }
-.content-col p{
+.content-col p {
   font-family: "Playfair Display";
   text-align: justify;
   font-size: 20px;
 }
-.content-col img{
+.content-col img {
   width: 100%;
   height: 100%;
   object-fit: contain;
 }
-footer{
-  width: 85%;
+footer {
+  width: fit-content;
   height: fit-content;
   position: absolute;
   display: flex;
@@ -128,44 +129,44 @@ footer{
   line-height: 30px;
   z-index: 1;
 }
-.row{
+.row {
   width: 100%;
   margin: auto;
   display: flex;
   flex-wrap: wrap;
   align-items: flex-start;
-  justify-content:space-evenly;
+  justify-content: space-evenly;
 }
-.col{
+.col {
   flex-basis: 35%;
   padding: 25px;
   flex: 1;
 }
-.col h2 span{
+.col h2 span {
   font-family: "Roboto Mono";
   font-size: 30px;
   color: #ffff;
   letter-spacing: 5px;
 }
-.col h2{
+.col h2 {
   text-align: left;
   padding-bottom: 5%;
   font-family: "Playfair Display";
   font-size: 30px;
   color: #ffffff;
 }
-.col p{
+.col p {
   text-align: justify;
   font-family: "Playfair Display";
   font-size: 20px;
   color: #ffff;
 }
-.col .contact span{
+.col .contact span {
   display: block;
   font-size: 15px;
   color: #ffff;
 }
-.col .contact-input{
+.col .contact-input {
   background-color: #ffff;
   color: #022b3a;
   margin-bottom: 5px;
@@ -173,7 +174,7 @@ footer{
   padding: 0.8rem 5rem;
   border: none;
 }
-.col .contact-input:focus{
+.col .contact-input:focus {
   background-color: #bfdbf7;
 }
 .btn-big {
@@ -191,8 +192,10 @@ footer{
   width: 100%;
   height: 100%;
   overflow: auto;
-  background-color: rgb(0, 0, 0); /* Fallback color */
-  background-color: rgba(0,0,0,0.5); /* Black w/ opacity */
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.5);
 }
 .modal-content {
   background-color: #bfdbf7;
@@ -201,7 +204,7 @@ footer{
   border: 10px solid #1f7a8c;
   width: 50%;
 }
-.modal-content p{
+.modal-content p {
   font-family: "Playfair Display";
   font-size: 15px;
   color: black;
@@ -212,7 +215,8 @@ footer{
   font-size: 30px;
   font-weight: bold;
 }
-.close:hover, .close:focus {
+.close:hover,
+.close:focus {
   color: black;
   text-decoration: none;
   cursor: pointer;
